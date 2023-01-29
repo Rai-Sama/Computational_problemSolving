@@ -15,7 +15,7 @@ def peek(s):
 
 def push(s, elem):
 	""" Pushes the element to the top of the stack and returns the new stack"""
-	return s + [elem]
+	return s + [elem] # append() does not return the list so is not used
 
 def pop(s):
 	""" Pops(removes from stack) the top of the stack and returns the element that was popped. Returns None if the stack is empty"""
