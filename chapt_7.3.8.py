@@ -14,10 +14,12 @@ def peek(s):
 	return None if isEmpty(s) else s[-1]
 
 def push(s, elem):
-	""" Pushes the element to the top of the stack and returns the new stack"""
+	""" Pushes the element to the top of the stack and returns the new stack.
+	Make sure to save the returned stack since it does not push in-place"""
 	return s + [elem] # append() does not return the list so is not used
 
 def pop(s):
-	""" Pops(removes from stack) the top of the stack and returns the element that was popped. Returns None if the stack is empty"""
+	""" Pops(removes from stack) the top of the stack and returns the element that was popped. Returns None if the stack is empty.
+	Make sure to save the returned stack since it does not pop in-place"""
 	return None if isEmpty(s) else s[:-1]
  
