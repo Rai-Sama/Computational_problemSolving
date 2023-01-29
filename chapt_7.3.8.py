@@ -1,6 +1,6 @@
-## A user-defined stack module
-## Change the name of the file to import it (I've named it as such for convenience)
-
+"""A user-defined stack module
+Change the name of the file to import it (I've named it as such for convenience)
+"""
 def createstack():
 	""" Creates and returns a new stack"""
 	return []
